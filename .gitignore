@@ -1,0 +1,57 @@
+# 依赖与构建产物
+node_modules/
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+*.timestamp-*-*.mjs
+
+# 日志与诊断报告
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# 测试产物与缓存
+coverage/
+.nyc_output/
+__screenshots__/
+.eslintcache
+/frontend/cypress/videos/
+/frontend/cypress/screenshots/
+
+# 本地环境配置与临时文件
+.env
+*.local
+.temp/
+.tmp/
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 系统与编辑器文件
+.DS_Store
+.idea/
+.project
+.classpath
+.c9/
+.settings/
+*.launch
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 保留前后端各自允许提交的 VS Code 配置
+**/.vscode/*
+!**/.vscode/extensions.json
+!/backend/.vscode/settings.json
+!/backend/.vscode/tasks.json
+!/backend/.vscode/launch.json
